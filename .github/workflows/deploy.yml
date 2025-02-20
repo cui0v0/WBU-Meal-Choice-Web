@@ -38,7 +38,8 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build
-      - name: Deploy 🚀
+      - name: Deploy 🚀                         # 第三步：部署
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: dist
+          folder: dist                         # 部署的目录
+          branch: gh-pages                     # 部署到哪个分支
