@@ -13,7 +13,7 @@ cd dist
 # echo 'www.example.com' > CNAME
 
 git init
-git checkout -b ChangeCode
+git checkout -b ResponsiveDesignBeta
 git add -A
 git commit -m 'deploy'
 
@@ -21,6 +21,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
 
 # 如果你要部署在 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:xiuandqi/WBU-Meal-Choice-Web.git ChangeCode:gh-pages
+git push -f git@github.com:cui0v0/WBU-Meal-Choice-Web.git ResponsiveDesignBeta:gh-pages
 
 cd -
